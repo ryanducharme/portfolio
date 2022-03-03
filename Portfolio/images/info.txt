@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Renner-Medium
+font link: http://indestructibletype.com/BuyRenner.html
+font author: indestructible type*
+font author site: http://indestructibletype.com/Home.html
+
+
+icon designer: Azis
+icon designer link: /azisher
+        
+{"bg":"#132554","icon":"#00A3DD","font":"#ffffff","slogan":"#ffffff"}
+      
