@@ -85,9 +85,7 @@ h2 {
     font-size: 1.5em;
     margin-left: 1em;
 }
-.site-preview {
-    
-}
+
 .nav-link > a{
     color: white;
     text-decoration: none;
@@ -100,10 +98,13 @@ h2 {
 }
 
 .portfolio-project-list-item {
-    /* display: inline-block; */
+    display: inline-block;
     margin: 1em;
     width: 400px;
     height: 300px;
+}
+.portfolio-project-list-item > a{
+    display: inline-block;
 }
 .section-heading {
     /* padding: 10px; */
