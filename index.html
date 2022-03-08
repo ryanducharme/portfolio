@@ -7,27 +7,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" href="style.css">
     <title>RJDevworks</title>
 </head>
 <body>
-    
-    <nav class="nav-list">
+    <nav class="container">
         <img src="images/rjdevworks/cover.png" class="" alt="" id="logo">
+        
         <ul class="nav-list">
-            <li class="nav-link"><a href="">About Me</a></li>
-            <li class="nav-link"><a href="">Portfolio</a></li>
-            <li class="nav-link"><a href="">Contact</a></li>
-            <li class="nav-link"><a href="">Email</a></li>
-            <li class="nav-link"><a href="">Github</a></li>
-            <li class="nav-link"><a href="">Twitter</a></li>
-            <li class="nav-link"><a href="">LinkedIn</a></li>
+            <li class="nav-link"><a href="#about-section">About Me</a></li>
+            <li class="nav-link"><a href="#portfolio-section">Portfolio</a></li>
+            <li class="nav-link"><a href="#contact-section">Contact</a></li>
         </ul>
     </nav>
-
-    
-
     <section id="about-section">
+
+        <!-- <table>
+            <tr>
+                <td><h2></h2>Ryan J. DuCharme</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Residence</td>
+                <td>Richmond Virginia</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="">emailtest@gmail.com</a></td>
+            </tr>
+            
+        </table> -->
         <h2 class="section-heading">Ryan DuCharme</h2>
         
         <ul class="info">
@@ -36,40 +52,55 @@
             <li>Residence Richmond Virginia</li>
             <li>Email test@gmail.com</li>
         </ul>
+        <h2></h2>
     </section>
     
     <section id="portfolio-section">
         <h2 class="section-heading">Portfolio</h2>
-        <ul class="portfolio-project-list">
+        <ul class="container portfolio-project-list">
             <li class="portfolio-project-list-item">
+                
+                <a href="https://fruitydoro.netlify.app/tomato%20timer/index.html" class="">Live Demo</a>
                 <p>Fruitydoro</p>
-                <a href="https://fruitydoro.netlify.app/tomato%20timer/index.html" class=""><img class="" width="400px" height="300px" src="images/fruitydoro_screenshot.jpg" alt=""></a>
                 <p>Fruitydoro is a play on the popular time management technique called "Pomodoro". <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Here</a> is a link to how the Pomodoro technique works.</p>
             </li>
             
             <li class="portfolio-project-list-item">
-                <!-- <img class="site-preview" width="300px" height="300px" src="images/sample_screenshot.png" alt="">     -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique? INSERT GITHUB LINK HERE</p>
+                <a href="https://quickflipsrs.netlify.app/">Live Demo</a>
+                <p>Quick Flips RS</p>
+                <p>Quick FLips RS is a hobby project for a game that I enjoy called Old School Runescape. This site takes advantage of an API to access information form the in-game auction house called the "Grand Exchange" You can search for items and see their potential profit margins based on timing information.</p>
             </li>
             <li class="portfolio-project-list-item">
+                <a href="https://quickflipsrs.netlify.app/">Live Demo</a>
                 <p>Quick Flips RS</p>
-                <a href="https://quickflipsrs.netlify.app/"><img class="" width="400px" height="300px" src="//image.thum.io/get/https://quickflipsrs.netlify.app/" alt=""></a>
-                <p>Quick FLips RS is a hobby project for a game that I enjoy called Old School Runescape. This site takes advantage of an API to access information form the in-game auction house called the "Grand Exchange" You can search for items and see their potential profit margins based on timing information.</p>
-
+            </li>
+            <li class="portfolio-project-list-item">
+                <a href="https://quickflipsrs.netlify.app/">Live Demo</a>
+                <p>Quick Flips RS</p>
             </li>
         </ul>
-        
+        <h2></h2>
     </section>
 
     <section id="contact-section">
         <h2 class="section-heading">Contact</h2>
-        <form action="">
-            <label for="">Name:</label>
-            <input type="text" name="" id="">
-            <label for="">Message</label>
-            <input type="text" name="" id="">
-            <input type="button" name="submit" value="Submit" id="">
-        </form>
+        <div class="container">
+            <a class="fa fa-github" href="https://github.com/ryanducharme"></a>
+            <a class="fa fa-linkedin" href=""></a>
+            <a class="fa fa-twitter" href=""></a>
+            <a class="fa fa-envelope" href=""></a>
+            <div class="break"></div>
+            
+            <form class="contact-form" action="">
+                <label for="">Name:</label>
+                <input type="text" name="" id="">
+                <br>
+                <label for="">Message</label>
+                <input type="text" name="" id="message-box">
+                <input type="button" name="submit" value="Submit" id="">
+            </form>
+            <h2></h2>
+        </div>
     </section>
     
     
