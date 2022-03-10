@@ -55,6 +55,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: white;
+    
 }
 
 nav {
@@ -145,21 +146,26 @@ h2 {
 #portfolio-section {
     color: black;
     /* border-top: solid 5px #33D0F4; */
-    background-color: #33D0F4;
-    background-image: url('images/bluetriangles.png');
+    /* background-color: #33D0F4; */
+    background-image: url('images/trianglify-lowres\ \(2\).png');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 1400px;
+    background-position: bottom;
+    background-size: 100% 100%;
+    /* height: 1000px; */
 }
 #about-section {
     background-color: rgba(255, 255, 255, 1.6);
-    background-image: url('images/purpletriangles.png');
+    background-image: url('images/trianglify-lowres\ \(1\).png');
     background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 1400px;
+    background-position: top;
+    background-size: 100% 100%;
+    height: 1000px;
+    /* width: 100%; */
+    /* height: 1000px; */
+    /* border: 1px solid red; */
+    /* height: 1080px; */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    color: white;
+    
     font-size: larger; 
 }
 #about-section > h2{
