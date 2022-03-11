@@ -48,6 +48,7 @@ table {
 }
 *{
     box-sizing: border-box;
+    color: #b6babf;
 }
 
 body {
@@ -55,17 +56,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: white;
-    
+    background-color: #202124;
 }
 
 nav {
-    /* position: sticky; */
-    /* top: 0; */
     width: 100%;
-    /* z-index: 999; */
-    /* opacity: 100%; */
-    /* justify-content: center; */
-    /* align-items: baseline; */
 }
 
 ul {
@@ -98,7 +93,8 @@ a {
     /* text-align: center; */
     align-items: center;
     /* margin-bottom: 2em; */
-    background-color: rgb(52,28,76);
+    background-color: #202124;
+     font-weight: 900;
 }
 
 .nav-link { 
@@ -108,20 +104,22 @@ a {
 }
 
 .nav-link > a{
-    color: white;
+    color: #b6babf;
     
 }
 
+#about-section {
+    background-color: #202124;
+    color: #b6babf;   
+}
+
+
+
+
+
 
 #portfolio-section {
-    color: black;
-    /* border-top: solid 5px #33D0F4; */
-    /* background-color: #33D0F4; */
-    background-image: url('images/bluetriangles.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /* background-size: cover; */
-    height: 1080px;
+    background-color: #202124;
 }
 .portfolio-project-list {
     /* justify-content: space-between; */
@@ -133,14 +131,13 @@ a {
     margin: 1em;
     width: 640px;
     height: 360px;
-    background-color: rgba(255, 255, 255, 1.6);
+    background-color: #606368;
     padding: 1em;
     color: black;
-    
+    border-radius: 10px;
     
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .portfolio-project-list-item > a{
     display: inline-block;
 }
@@ -153,22 +150,15 @@ a {
     text-align: center;
 }
 
-#about-section {
-    
-    background-image: url('images/purpletriangles.svg');
-    background-repeat: no-repeat;
-    background-position: top;
-    /* background-size: 100% 100%; */
-    /* width: 100%; */
-    height: 1080px;
-    font-size: larger; 
-}
+
 
 #name {
     font-size: 3em;
+    color: #b64fc8;
+    
 }
 .purple-box {
-    background-color: rgb(52,28,76);
+   
 }
 .about-me {
  
@@ -180,13 +170,7 @@ a {
 
 
 #contact-section {
-    /* display: flex; */
-    
-    background-color: rgba(51,208,244,255);
-    /* background-color: rgba(255, 255, 255, 1.6); */
-    color: black;
-    flex-basis: 100%;
-    justify-content: center;    
+   
 }
 
 
@@ -199,8 +183,8 @@ a {
 }
 
 .fa {
-    background-color: rgba(51,208,244,255);
-    color: white;
+    /* background-color: ; */
+    color: #b6babf;
     padding-top: 15px;
     font-size: 30px;
     width: 60px;
@@ -210,6 +194,7 @@ a {
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 1em;
+    
   }
 #message-box {
    
@@ -228,6 +213,7 @@ a {
     margin: 0;
     height: 100px;
     width: 243px;
+    
     /* height: 200px;
     width: 486px; */
 }
