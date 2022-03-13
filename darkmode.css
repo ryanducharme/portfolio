@@ -136,7 +136,7 @@ a {
 
 .main-content {
     /* margin-left: 10em; */
-    justify-content: center;
+    /* justify-content: center; */
     /* position: relative; */
     position: absolute;
     left: 240px;
@@ -148,12 +148,10 @@ a {
 #portfolio-section {
     
     background-color: #3d4242;
-    
-    
 }
 .portfolio-project-list {
     /* justify-content: space-between; */
-    justify-content: center;
+    /* justify-content: center; */
     
 }
 
@@ -191,10 +189,12 @@ a {
 
 .section-heading {
     flex-basis: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-size: 5em;
-   margin-top: 8em;
-   margin-bottom: 1em;
+    margin-top: 8em;
+    /* margin-left: 1em; */
+    margin-left: 1rem;
+    margin-bottom: 1em;
     /* background-color: white; */
 }
 .info {
@@ -231,18 +231,11 @@ a {
     text-align: center;
     text-decoration: none;
     margin-left: 0.5em;
+    /* margin-left: 1rem; */
     margin-right: 0.5em;
     /* margin-bottom: 1em; */
     
   }
-#message-box {
-   
-}
-
-.contact-form {
-
-}
-
 #logo {
     /* display: block; */
     /* text-align: left; */
@@ -286,7 +279,7 @@ a {
     border-radius: 10px;
     margin: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
   }
 
   .module-button {
@@ -303,7 +296,7 @@ a {
         background: linear-gradient(to right, rgb(255, 0, 0), rgb(183, 0, 255));
         padding: 0px 0px 2px 0px;
         /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4); */
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
   }
 
   .module-nav-link {
@@ -328,6 +321,7 @@ a {
   .contact-form {
     font-size: 1.2em;
     width: 100%;
+    margin-left: 1em;
   }
 
   .form-label {
@@ -382,5 +376,5 @@ a {
 
   .contact-section-content {
     /* text-align: center; */
-    margin: auto;
+    /* margin: auto; */
   }
