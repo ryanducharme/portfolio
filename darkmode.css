@@ -56,11 +56,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: white;
-    background-color: #202124;
+    /* background-color: #202124; */
 }
 
 nav {
     width: 100%;
+    
 }
 
 ul {
@@ -95,6 +96,7 @@ a {
     /* margin-bottom: 2em; */
     background-color: #202124;
      font-weight: 900;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .nav-link { 
@@ -109,17 +111,15 @@ a {
 }
 
 #about-section {
-    background-color: #202124;
+    background-color: #272B2B;
     color: #b6babf;   
 }
 
 
 
 
-
-
 #portfolio-section {
-    background-color: #202124;
+    background-color: #272B2B;
 }
 .portfolio-project-list {
     /* justify-content: space-between; */
@@ -130,17 +130,34 @@ a {
     display: inline-block;
     margin: 1em;
     width: 640px;
-    height: 360px;
+    /* height: 360px; */
     background-color: #606368;
     padding: 1em;
     color: black;
     border-radius: 10px;
     
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 .portfolio-project-list-item > a{
     display: inline-block;
 }
+
+.project-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.project-link {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: #272B2B;
+    /* border: 1px solid red; */
+}
+
 .section-heading {
     flex-basis: 100%;
     text-align: center;
@@ -155,7 +172,7 @@ a {
 #name {
     font-size: 3em;
     color: #b64fc8;
-    
+    margin-top: 1em;
 }
 .purple-box {
    
@@ -170,7 +187,7 @@ a {
 
 
 #contact-section {
-   
+    background-color: #202124;
 }
 
 
@@ -217,5 +234,3 @@ a {
     /* height: 200px;
     width: 486px; */
 }
-
-
