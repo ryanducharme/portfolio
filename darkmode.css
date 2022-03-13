@@ -137,9 +137,11 @@ a {
 .main-content {
     /* margin-left: 10em; */
     justify-content: center;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     left: 240px;
-    max-width: 87%;
+    /* left: 25%; */
+    max-width: 100%;
     
 }
 
@@ -257,7 +259,7 @@ a {
 }
 
 .module-border-wrap {
-    max-width: 640px;
+    max-width: 540px;
     /* padding: 1rem; */
     position: relative;
     background: linear-gradient(to right, rgb(255, 0, 0), rgb(183, 0, 255));
