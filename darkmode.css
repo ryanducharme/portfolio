@@ -64,10 +64,12 @@ body {
     font-family: 'open sans', arial, sans-serif;
     /* font-weight: 100; */
     color: white;
-    background-color: #3d4242;
+    background-color: #2d3131;
 }
 
-nav {}
+nav {
+    
+}
 
 ul {
     text-decoration: none;
@@ -98,19 +100,20 @@ a {
     justify-content: center;
     top: 0;
     left: 0;
-/* width: 30vw; */
+    width: 240px;
     background-color: #202124;
+    
 }
 
 
 .nav-link>a {
     color: #b6babf;
-    font-size: 1vw;
+    /* font-size: 1vw; */
 }
 
 #about-section {
 
-    background-color: #3d4242;
+    background-color: #2d3131;
     color: #b6babf;
 
 }
@@ -122,14 +125,15 @@ a {
 }
 
 .sub-info-text {
-    font-size: 4vw;
-    margin: 1vw;
+    font-size: 3rem;
+    margin: 1rem;
     /* margin-bottom: 20em; */
 }
 
 #name {
     display: block;
-    font-size: 13vw;
+    font-size: 12rem;
+    /* font-size: 12vw; */
     /* transform: scale(1, 10.5); */
     font-weight: 100;
     /* font-family: 'open sans',arial,sans-serif; */
@@ -141,12 +145,12 @@ a {
 
 .main-content {
     position: absolute;
-    left: 15vw;
+    left: 260px;
 }
 
 #portfolio-section {
 
-    background-color: #3d4242;
+    background-color: #2d3131;
 }
 
 .portfolio-project-list {
@@ -158,7 +162,7 @@ a {
 .portfolio-project-list-item {
     display: inline-block;
 
-    max-width: 640px;
+    /* max-width: 540px; */
     /* height: 360px; */
     background-color: #606368;
     padding: 1rem;
@@ -180,7 +184,7 @@ a {
 .project-link {
     display: inline-block;
     height: 50px;
-    width: 100px;
+    /* width: 100px; */
     text-align: center;
     padding-top: 15px;
     border-radius: 10px;
@@ -208,7 +212,7 @@ a {
 
 
 #contact-section {
-    background-color: #3d4242;
+    background-color: #2d3131;
     height: 1080px;
 }
 
@@ -236,17 +240,13 @@ a {
 }
 
 #logo {
-
     margin: 0;
     height: 100px;
     width: 240px;
-    height: 7vw;
-    width: 15vw;
-
 }
 
 .module-border-wrap {
-    max-width: 540px;
+    max-width: 680px;
     /* padding: 1rem; */
     position: relative;
     background: linear-gradient(to right, rgb(255, 0, 0), rgb(183, 0, 255));
@@ -296,7 +296,7 @@ a {
     color: white;
     padding: 0.75em;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1.5rem;
 }
 
 @font-face {
@@ -357,22 +357,41 @@ a {
     width: 100%;
 }
 
-.contact-section-content {
+.contact-section-content {}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #name {
+        font-size: 8rem;
+    }
+
+    .sub-info-text {
+        font-size: 2rem;
+    }
+
+    .module-nav-link {}
+
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 880px) {
     body {
         max-width: 100%;
     }
 
     #logo {
-        width: 100%;
+        width: 240px;
     }
 
     .nav-list {
         display: flex;
-        background-color: white;
+        background-color: #222;
         position: relative;
+        width: 100%;
+        height: 100px;
     }
 
     .nav-link>a {
@@ -380,12 +399,57 @@ a {
         font-size: 25vw;
     }
 
-
     .main-content {
         position: relative;
         /* position: absolute; */
         left: 0px;
     }
-
+    .module-border-wrap-nav-link {
+        padding: 0;
+        padding-left: 2px;
+        vertical-align: middle;
+        width: 20%;
+        background: linear-gradient(to top, rgb(255, 0, 0), rgb(183, 0, 255));
+    }
     
+    .module-nav-link {
+        font-size: 1.2rem;
+        height: 100%;
+    }
+    .module-nav-link  > a{
+        display: inline-block;
+        padding: 1rem 1rem 1rem 1rem;
+        
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    body {
+        max-width: 100%;
+    }
+
+
+    #name {
+        font-size: 5rem;
+    }
+
+    .sub-info-text {
+        font-size: 1.5rem;
+    }
+
+    #logo {
+        width: 140px;
+        height: 60px;
+    }
+    .module-nav-link {
+        font-size: 1rem;
+        height: 100%;
+    }
+
+
+        
 }
