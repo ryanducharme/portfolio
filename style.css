@@ -76,6 +76,11 @@ a {
 }
 
 
+.icon {
+    font-size: 76px;
+    
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
