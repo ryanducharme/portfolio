@@ -253,7 +253,10 @@ a {
 
 .purple-box {}
 
-
+.blurb {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
 #contact-section {
     background-color: #2d3131;
