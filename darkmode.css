@@ -104,6 +104,11 @@ a {
 }
 
 .nav-list {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
@@ -182,6 +187,8 @@ a {
 
 .main-content {
     margin-top: 50px;
+    position: relative;
+    top: 50px;
 }
 
 .story {
@@ -197,6 +204,7 @@ a {
     font-weight: 100;
     text-align: center; 
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 #portfolio-section {
     display: flex;
@@ -245,6 +253,7 @@ a {
     font-size: 4em;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .info {
@@ -354,7 +363,8 @@ a {
 
 .contact-form {
     font-size: 1.2em;
-    width: 100%;
+    margin: auto;
+    width: 90%;
 }
 
 .form-label {
@@ -470,7 +480,6 @@ a {
     .code-icon {
         font-size: 52px;
     }
-
 }
 
 @media only screen and (max-width: 1010px) {
@@ -507,14 +516,29 @@ a {
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 803px) {
     body {
         max-width: 100%;
     }
 
+    .nav-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1;
+    }
+
+    .nav-list-right {
+        display: none;
+    }
+
+    .nav-list-left {
+        /* visibility: collapse; */
+        grid-column: 1 / span all;
+        /* text-align: center; */
+        justify-content: center;
+    }
 
     #name {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     .sub-info-text {
