@@ -42,10 +42,10 @@
         <div class="nav-list-right">
 
           <div>
-            <a class="fa fa-github" href="https://github.com/ryanducharme"></a>
-            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/ryan-ducharme-6763b8210"></a>
-            <a class="fa fa-twitter" href="https://twitter.com/RyanDuCharme77"></a>
-            <a class="fa fa-envelope" href="ryan.ducharme77@gmail.com"></a>
+            <a class="fa fa-github" target="_blank" href="https://github.com/ryanducharme"></a>
+            <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/ryan-ducharme-6763b8210"></a>
+            <a class="fa fa-twitter" target="_blank" href="https://twitter.com/RyanDuCharme77"></a>
+            <a class="fa fa-envelope" href="mailto: ryan.ducharme77@gmail.com"></a>
           </div>
         </div>
 
@@ -59,12 +59,13 @@
         <div class="contact-section-content">
           <h2 class="section-heading">Contact</h2>
           <div style="text-align: center;">
-            <a class="fa fa-github" href="https://github.com/ryanducharme"></a>
-            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/ryan-ducharme-6763b8210"></a>
-            <a class="fa fa-twitter" href="https://twitter.com/RyanDuCharme77"></a>
-            <a class="fa fa-envelope" href="ryan.ducharme77@gmail.com"></a>
+            <a class="fa fa-github" target="_blank" href="https://github.com/ryanducharme"></a>
+            <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/ryan-ducharme-6763b8210"></a>
+            <a class="fa fa-twitter" target="_blank" href="https://twitter.com/RyanDuCharme77"></a>
+            <a class="fa fa-envelope" href="mailto: ryan.ducharme77@gmail.com?Hello"></a>
+
           </div>
-          <form class="contact-form" action="">
+          <form class="contact-form" name="contact" method="POST" data-netlify="true">
             <div>
               <label class="form-label" for="">First Name:</label>
               <input class="form-input-text form-input-text-50" type="text" name="" id="">
@@ -84,7 +85,8 @@
             <label class="form-label" for="">Message:</label>
             <textarea class="form-text-area" name="" id="" cols="30" rows="10"></textarea>
 
-            <input class="form-input-button" type="button" name="submit" value="Submit" id="">
+            <!-- <input class="form-input-button" type="button" name="submit" value="Submit" id=""> -->
+            <button class="form-input-button" type="submit">Send</button>
           </form>
         </div>
       </section>
