@@ -501,10 +501,10 @@ a {
         padding: 10px;
     }
     .about-right-top {
-        display: flex;
+        /* display: flex; */
         justify-content: left;
         padding: 10px;
-        margin: 0;
+        margin: auto;
     }
     .story {
         width: 80%;
